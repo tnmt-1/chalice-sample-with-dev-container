@@ -1,0 +1,24 @@
+{
+  "name": "chalice sample with dev-container",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "web",
+  "workspaceFolder": "/app",
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "donjayamanne.python-environment-manager",
+        "donjayamanne.python-extension-pack",
+        "KevinRose.vsc-python-indent",
+        "mikoz.black-py",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "ms-python.flake8",
+        "ms-python.isort",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "njpwerner.autodocstring",
+        "standard.vscode-standard"
+      ]
+    }
+  }
+}
